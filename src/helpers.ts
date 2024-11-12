@@ -139,7 +139,7 @@ export async function getProxies(env: Env): Promise<Array<string>> {
 }
 
 export function getUUID(sni: string) : string {
-  return uuidv5(sni.toLowerCase(), "ebc4a168-a6fe-47ce-bc25-6183c6212dcc") as string
+  return uuidv5(sni.toLowerCase(), "78a3d154-d0f9-42a9-bc63-9c78a30075c9") as string
 }
 
 export function getSHA224Password(sni: string) : string {
